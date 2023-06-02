@@ -46,7 +46,7 @@ window.onload = function() {
         }
 
 
-        if (username === "admin" && validatePassword(password)) {
+        if (username === "Admin" && validatePassword(password)) {
             alert("Login successful. Redirecting to admin panel...");
             window.location.href = "admin_panel.html";
         }
